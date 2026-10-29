@@ -9,7 +9,7 @@ stages {
     stage('Clone Repository') {
         steps {
             git branch: 'master',
-                url: 'https://github.com/greeshg/LibraryAppCI.git'
+                url: 'https://github.com/greeshg/libraryappci.git'
         }
     }
 
